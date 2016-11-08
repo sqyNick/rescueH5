@@ -1,0 +1,128 @@
+.deal-event-main-box{
+    width: 806px;
+    height: 638px;
+    background-color: #004687;
+    opacity: 0.9;
+}
+.event-detail-toolbar{
+    width: 776px;
+    height: 45px;
+    margin: 0 auto;
+}
+.event-toolbar-detail{
+    color: #fff;
+    font-size: 20px;
+    line-height: 45px;
+    cursor: context-menu;
+}
+.event-detail-close{
+    width: 20px;
+    height: 20px;
+    float: right;
+    background-size: 20px 20px;
+    line-height: 45px;
+    position: relative;
+    top: 12px;
+    cursor: pointer;
+}
+.event-deal-map-box{
+    width: 776px;
+    height: 235px;
+    margin: 0 auto;
+}
+
+.event-deal-bottom{
+    width: 776px;
+    height: 308px;
+    margin-left: 15px;
+    margin-top: 30px;
+    background-color: rgba(0,0,0,0.3);
+}
+.event-deal-left{
+    width: 388px;
+    height: 308px;
+    float: left;
+}
+.event-deal-right {
+    width: 387px;
+    height: 300px;
+    float: left;
+    margin-top: 4px;
+    border-left: 1px solid #fff;
+}
+.span-event-title{
+    margin-left: 10px;
+    width: auto;
+    height: 25px;
+    color: #fff;
+    font-size: 18px;
+}
+.span-event-item-info{
+    width: 200px;
+    height: 25px;
+    display: inline-block;
+    color: #fff;
+    font-size: 16px;
+}
+.history-select {
+    width: 180px;
+    height: 30px;
+    outline: none;
+    background-color: rgba(0,0,0,0.5);
+    border: none;
+    color: #fff;
+    appearance: none;
+    background-image: url("../image/select_icon.png");
+    background-position: 160px 8px;
+    background-repeat: no-repeat;
+    -webkit-appearance: none;
+    padding-left: 5px;
+    padding-right: 20px;
+    background-size: 14px 14px;
+}
+.event-deal-btn{
+    width: 315px;
+    height: 30px;
+    margin-left: 35px;
+    margin-top: 30px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-color: #0066ff;
+    color: #fff;
+    font-size: 18px;
+}
+.event-deal-item{
+    width: 340px;
+    height: 25px;
+    margin: 20px auto;
+    text-align: center;
+}
+.event-deal-text-area{
+    width: 358px;
+    height: auto;
+    margin: 0 auto;
+}
+#text-area-event-deal{
+    resize: none;
+    width: 348px;
+    height: 105px;
+    background-color: rgba(0,0,0,0.5);
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    outline: none;
+    padding: 5px;
+}
+.event-deal-radio{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.span-event-deal-way{
+    width: auto;
+    height: 25px;
+    line-height: 25px;
+    background-color: #002c53;
+    margin-top: -10px;
+}

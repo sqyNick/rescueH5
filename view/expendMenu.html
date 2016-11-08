@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="../css/menu.css"/>
+    <link rel="stylesheet" href="../css/scrollbar.css"/>
+</head>
+<body style=" overflow-x : hidden;overflow-y: hidden;">
+<div class="main">
+    <div class="menu-head">
+        <span class="event-status">事件状态</span>
+        <div class="div-status">
+            <input type="radio" value="全部" name="status" class="input-status" checked="checked"/><span style="color: #ffffff;">全部</span>
+            <input type="radio" value="未处理"name="status" class="input-status"/><span style="color: #ffffff;">未处理</span>
+            <input type="radio" value="处理中"name="status" class="input-status"/><span style="color: #ffffff;">处理中</span>
+        </div>
+    </div>
+    <div class="menu-content-box">
+        <div class="red-event-item">
+            <div class="red-item-left">
+                <img src="../image/red-icon-position.png" class="img-position"/>
+            </div>
+            <div class="red-item-right">
+                <div class="item-title">
+                    <span class="span-title">东湖磨山景区(移动App)</span>
+                    <span class="span-time">10:45</span>
+                </div>
+                <div class="item-description">当前事发状况，大概发送的事发时间，详细描述</div>
+                <div class="item-action">
+                    <span class="item-status">处理中...</span>
+                    <button class="red-item-button" onclick="accept()">接受</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="orage-event-item">
+
+        </div>
+
+        <div class="yellow-event-item">
+
+        </div>
+
+        <div class="blue-event-item">
+
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="../js/jquery-2.2.3.min.js"></script>
+<script type="text/javascript" src="../js/menu.js"></script>
+</body>
+</html>

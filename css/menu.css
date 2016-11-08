@@ -1,0 +1,116 @@
+.main{
+    width: 470px;
+    height: 638px;
+    background-color: rgba(0,0,0,0.7);
+    overflow-x: hidden;
+}
+.menu-head{
+    width: 470px;
+    height: 50px;
+    background-color: #004687;
+}
+.menu-content-box{
+    width: 470px;
+    height: 588px;
+    overflow-y: auto;
+}
+.red-event-item{
+    width: 410px;
+    height: 158px;
+    border: 1px solid #ff0000;
+    border-radius: 4px;
+    margin: 15px auto;
+}
+.orage-event-item{
+    width: 410px;
+    height: 158px;
+    border: 1px solid #ff6600;
+    border-radius: 4px;
+    margin: 15px auto;
+}
+.blue-event-item{
+    width: 410px;
+    height: 158px;
+    border: 1px solid #0265ff;
+    border-radius: 4px;
+    margin: 15px auto;
+}
+.yellow-event-item{
+    width: 410px;
+    height: 158px;
+    border: 1px solid #ffc000;
+    border-radius: 4px;
+    margin: 15px auto;
+}
+.red-item-left{
+    float: left;
+    width: 40px;
+    height: 40px;
+}
+.red-item-right {
+    float: left;
+    width: 370px;
+    height: 158px;
+}
+.img-position{
+    margin-left: 17px;
+    margin-top: 10px;
+}
+.item-title{
+    width: auto;
+    height: 40px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.span-title{
+    width: 250px;
+    height: 40px;
+    display: inline-block;
+    color: #ffffff;
+}
+.span-time{
+    display: inline-block;
+    color: #ffffff;
+}
+.item-description{
+    width: 250px;
+    height: 50px;
+    margin-left: 15px;
+    color: #ffffff;
+}
+.item-status{
+    margin-left: 15px;
+    color: #ff0000;
+}
+.red-item-button{
+    float: right;
+    margin-right: 20px;
+    width: 86px;
+    height: 34px;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    background-color: #e71313;
+    cursor: pointer;
+}
+.event-status{
+    width: auto;
+    height: 50px;
+    line-height: 50px;
+    color: #ffffff;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.div-status{
+    width: 300px;
+    height: 30px;
+    float: right;
+    margin-top: 15px;
+}
+.input-status{
+    line-height: 50px;
+}
+
+
+

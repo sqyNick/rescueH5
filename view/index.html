@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html style="height: 100%">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>
+
+    </title>
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<body style="height: 100%">
+<div class="content-main">
+    <div class="toolbar">
+        <div style="float: left"><img src="../image/icon_user.jpg" style="height: 52px;width: 52px;border-radius: 28px;margin-top: 9px;margin-left: 20px;"/></div>
+        <div class="info-box">
+            <div class="info-top"> <span id="span-user-name">yonghubi</span> <span id="span-company-name">烽火众智</span> <span id="span-time" style="color: #00eaff">10:24</span></div>
+            <div class="info-bottom"> <span style="color: #ffffff;font-size: 18px;cursor: pointer;">退出</span></div>
+        </div>
+        <div class="tool-bar-right">
+            <img src="../image/tool_back.png" alt="" style="height: 55px;width: 100px;margin-top: 7px;cursor: pointer;"/>
+            <img src="../image/tool_flash.png" alt="" style="height: 55px;width: 100px;margin-top: 7px;cursor: pointer;"/>
+            <img src="../image/tool_setting.png" alt="" style="height: 55px;width: 100px;margin-top: 7px;cursor: pointer;"/>
+        </div>
+    </div>
+    <div class="icon-box">
+        <img src="../image/icon_home.png" alt="" style="height: 36px;width: 37px;cursor: pointer;border: none;" id="img-blue-house" onclick="showBlueHouse()"/>
+        <img src="../image/icon_police.png" alt="" style="height: 36px;width: 37px;cursor: pointer;border: none;"onclick="showPolice()"/>
+        <img src="../image/icon_light.png" alt="" style="height: 36px;width: 37px;cursor: pointer;border: none;"onclick="showArmLight()"/>
+    </div>
+    <div class="zoom-box">
+        <img src="../image/zoom_out.png" alt="" style="height: 30px;width: 30px;cursor: pointer;border: none;" onclick="zoomIn()"/>
+        <img src="../image/zoom_in.png" alt="" style="height: 30px;width: 30px;cursor: pointer;border: none; margin-top: 10px;" onclick="zoomOut()"/>
+    </div>
+    <div class="left-expend-box" onclick="expendLeftMenu()" id="expend-menu-id"></div>
+    <div id="map"></div>
+
+</div>
+</body>
+<script type="text/javascript" src="../js/jquery-2.2.3.min.js"></script>
+<script type="text/javascript" src="http://webapi.amap.com/maps?v=1.3&key=2b84b8dba8c393148341d079912058fc&callback=initMap"></script>
+<script type="text/javascript" src="../js/index.js"></script>
+</html>

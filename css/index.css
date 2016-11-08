@@ -1,0 +1,81 @@
+
+.content-main{
+    width: 1366px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.toolbar{
+    width: 1366px;
+    height: 70px;
+    background-image: url("../image/toolbar_head.png");
+    position: absolute;
+    box-shadow: 0 2px  1px #aaaaaa;
+    z-index: 10000;
+}
+.info-box{
+    width: 300px;
+    height: 70px;
+    margin-left: 20px;
+    float: left;
+}
+.info-top{
+    width: 300px;
+    height: 20px;
+    margin-top: 9px;
+}
+.info-bottom{
+    width: 300px;
+    height: 20px;
+    margin-top: 10px;
+}
+#span-user-name{
+    color: #ffffff;
+    font-size: 18px;
+}
+#span-company-name{
+    margin-left: 20px;
+    color: #ffffff;
+    font-size: 18px;
+}
+#span-time{
+    margin-left: 30px;
+    color: #00eaff;
+    font-size: 18px;
+}
+.tool-bar-right{
+    width: 320px;
+    height: 70px;
+    float: right;
+}
+.icon-box{
+    width: 127px;
+    height: 37px;
+    position: absolute;
+    right: 20px;
+    top: 90px;
+    border: none;
+    z-index: 10000;
+}
+.zoom-box{
+    width: 30px;
+    height: 80px;
+    position: absolute;
+    z-index: 10000;
+    top: 150px;
+    right: 20px;
+}
+.left-expend-box{
+    width: 17px;
+    height: 143px;
+    position: absolute;
+    background-image: url("../image/icon_open.png");
+    z-index: 10000;
+    top: 50%;
+    left: 10px;
+    cursor: pointer;
+}
+#map{
+    width: 1366px;
+    height: 100%;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>
+
+    </title>
+    <link rel="stylesheet" href="../css/dealEvent.css"/>
+</head>
+<body>
+<div class="deal-event-main-box">
+    <div class="event-detail-toolbar">
+        <span class="event-toolbar-detail">历史详情</span>
+        <img src="../image/icon_close_history.png" alt="" class="event-detail-close"/>
+    </div>
+
+    <div class="event-deal-map-box" id="smalMap"></div>
+
+    <div class="event-deal-bottom">
+        <div class="event-deal-left">
+            <div class="evetn-iten-detail" style="margin-top: 20px;"><span class="span-event-title">事件类型：</span>
+                <select name="" id="select-event-type" class="history-select">
+                <option value="未处理">未处理</option>
+                <option value="处理中">处理中</option>
+                <option value="已处理">已处理</option>
+                <option value="全部">全部</option>
+            </select>
+            </div>
+            <div class="evetn-iten-detail" style="margin-top: 10px;"><span class="span-event-title">报警位置：</span> <span class="span-event-item-info">东湖XX风景区 植物园大门</span></div>
+            <div class="evetn-iten-detail"><span class="span-event-title">报警时间：</span> <span class="span-event-item-info">10:54</span></div>
+            <div class="evetn-iten-detail"><span class="span-event-title">报警来源：</span> <span class="span-event-item-info">移动App</span></div>
+            <div class="evetn-iten-detail"><span class="span-event-title">联系方式：</span> <span class="span-event-item-info">15661616161</span></div>
+            <div class="evetn-iten-detail"><div style="float: left;width: auto;margin-left: 10px;color: #fff;font-size: 18px;">救助需求：</div><span class="span-event-item-info" style=";height: 60px;">发生救助事故，需要简单医疗救助药物，医疗紧急物品及多名人员</span></div>
+            <button class="event-deal-btn">语&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp音</button>
+        </div>
+
+        <div class="event-deal-right">
+            <div class="event-deal-item">
+               <div style="float: left;margin-left: 60px;"><input type="radio"  name="radio-deal-way" class="event-deal-radio" value="0" onclick="checkChange()" checked="checked"/></div><div style="float: left;color: #fff;font-size: 18px;line-height: 25px;margin-left: 10px;">沟通后游客自行解决</div>
+            </div>
+
+            <div class="event-deal-text-area">
+                <textarea id="text-area-event-deal" cols="30" rows="10"></textarea>
+            </div>
+            <div class="event-deal-item">
+                <div style="float: left;margin-left: 60px;"><input type="radio"  name="radio-deal-way" class="event-deal-radio" value="1"  onclick="checkChange()"/></div><div style="float: left;color: #fff;font-size: 18px;line-height: 25px;margin-left: 10px;">需要指派人员进行救助</div>
+            </div>
+            <button class="event-deal-btn" style="margin-top: 2px;" id="btn-chose">完&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp成</button>
+        </div>
+    </div>
+</div>
+</body>
+
+<script type="text/javascript" src="../js/jquery-2.2.3.min.js"></script>
+<script type="text/javascript" src="http://webapi.amap.com/maps?v=1.3&key=2b84b8dba8c393148341d079912058fc&callback=initMap"></script>
+<script type="text/javascript" src="../js/dealEvent.js"></script>
+</html>

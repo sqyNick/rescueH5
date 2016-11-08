@@ -1,0 +1,101 @@
+.event-detail-main-box{
+    width: 725px;
+    height: 638px;
+    background-color: #116bc1;
+}
+.event-detail-toolbar{
+    width: 695px;
+    height: 45px;
+    margin: 0 auto;
+}
+.event-toolbar-detail{
+    color: #fff;
+    font-size: 20px;
+    line-height: 45px;
+    cursor: context-menu;
+}
+.event-detail-close{
+    width: 20px;
+    height: 20px;
+    float: right;
+    background-size: 20px 20px;
+    line-height: 45px;
+    position: relative;
+    top: 12px;
+    cursor: pointer;
+}
+.event-detail-box{
+    width: 695px;
+    height: 503px;
+    border-radius: 4px;
+    border: 1px solid #fff;
+    margin: 0 auto;
+}
+.event-top{
+    margin-top: 10px;
+    height: 195px;
+    width: 655px;
+    border-bottom: 1px solid #fff;
+    margin-left: 15px;
+}
+.event-left{
+    width: 300px;
+    height: 195px;
+    float: left;
+}
+.event-right{
+    width: 355px;
+    height: 195px;
+    float: left;
+}
+.span-event-title{
+    width: auto;
+    height: 25px;
+    color: #fff;
+    font-size: 18px;
+}
+.span-event-item-info{
+    width: 180px;
+    height: 25px;
+    display: inline-block;
+    color: #fff;
+    font-size: 18px;
+}
+.event-bottom{
+    margin-top: 10px;
+    height: 308px;
+    width: 655px;
+    margin-left: 15px;
+}
+#text-area-detail{
+    margin-top: 10px;
+    width: 328px;
+    height: 220px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    padding: 3px;
+    resize: none;
+    font-size: 18px;
+    background-color: #02549f;
+    outline: none;
+}
+.event-action{
+    width: 695px;
+    height: 80px;
+    margin: 0 auto;
+}
+.event-btn{
+    width: 120px;
+    height: 40px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+    border-radius: 4px;
+    color: #fff;
+    outline: none;
+    background-color: #00c6ff;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}

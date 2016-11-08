@@ -1,0 +1,74 @@
+.main-box{
+    width: 1266px;
+    height: 638px;
+    background-color: rgba(0,0,0,0.7);
+}
+.history-toolbar{
+    width: 1266px;
+    height: 100px;
+    background-color: #004687;
+}
+.span-history-title{
+    margin-left: 10px;
+    margin-top: 10px;
+    color: #fff;
+    font-size: 22px;
+    display: inline-block;
+}
+.toolbar-bottom{
+    width: 1100px;
+    height: 40px;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+.span-toolbar-bottom{
+    line-height: 40px;
+    color: #fff;
+}
+.input-time{
+    background-color: #002c53;
+    outline: none;
+    border: none;
+    height: 30px;
+    width: 140px;
+    color: #fff;
+    padding-left: 10px;
+}
+.history-select{
+    width: 120px;
+    height: 30px;
+    outline: none;
+    background-color: #002c53;
+    border: none;
+    color: #fff;
+    appearance:none;
+    background-image: url("../image/select_icon.png");
+    background-position: 100px 8px;
+    background-repeat: no-repeat;
+    -webkit-appearance: none;
+    padding-left: 5px;
+    padding-right: 20px;
+    background-size: 14px 14px;
+}
+.btn-search{
+    width: 90px;
+    height: 30px;
+    outline: none;
+    background-color: #00a2ff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-left: 20px;
+    border-radius: 4px;
+}
+.btn-search:hover{
+    background-color: #02549f;
+}
+.history-content-box{
+    width: 1206px;
+    height: 478px;
+    background-color: #2b542c;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-right: 30px;
+}
